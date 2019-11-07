@@ -12,3 +12,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.contents-container{
+  display: flex;
+  flex-flow:column nowrap;
+}
+
+.country-container{
+  display: flex;
+  flex-flow:row nowrap;
+  justify-content: space-around;
+}
+
+.header{
+  background-color: #007bfe;
+}
+.header h2{
+  color:white;
+}
+
+
+.countryDetailContents{
+  display: flex;
+  flex-flow:row nowrap;
+  justify-content: left;
+}
+
+.second-element{
+  margin-left:50px;
+  text-align: left;
+}
+
+
